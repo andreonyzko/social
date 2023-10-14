@@ -58,3 +58,15 @@ main{
     scale: 1.1;
     transition: 0.3s;
 }
+
+@media (max-width: 720px) {
+    #redes-sociais a{
+        display: inline-block;
+        width: 11%;
+        padding: 2%;
+    }
+
+    #redes-sociais img{
+        width: 100%;
+    }
+}
