@@ -25,9 +25,10 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 311px;
-    height: 627px;
+    width: 22.76vw;
+    height: 45.9vw;
     background: url(../imagens/frame-iphone.png) no-repeat;
+    background-size: cover;
 }
 
 #tela{
@@ -59,7 +60,7 @@ main{
     transition: 0.3s;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 600px) {
     #redes-sociais a{
         display: inline-block;
         width: 11%;
@@ -69,4 +70,9 @@ main{
     #redes-sociais img{
         width: 100%;
     }
+    #telefone{
+        width: 75vw;
+        height: 151vw;
+    }
+    
 }
