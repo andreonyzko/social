@@ -1,2 +1,2 @@
 # social
-  A HTML5 & CSS3 course project
+  A Social Network project for the course
